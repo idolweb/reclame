@@ -4,7 +4,6 @@ describe Reclame::Reclamation do
   before do
     @slogan = Object.new
     @slogan.extend(Reclame::Reclamation)
-    @proc = Proc.new{ @called = true}
   end
 
   describe 'when advertize a pattern' do
